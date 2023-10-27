@@ -64,7 +64,7 @@
             this.Task1_panel.Controls.Add(this.label3);
             this.Task1_panel.Controls.Add(this.label2);
             this.Task1_panel.Controls.Add(this.label1);
-            this.Task1_panel.Location = new System.Drawing.Point(0, 27);
+            this.Task1_panel.Location = new System.Drawing.Point(9, 24);
             this.Task1_panel.Name = "Task1_panel";
             this.Task1_panel.Size = new System.Drawing.Size(426, 422);
             this.Task1_panel.TabIndex = 6;
@@ -169,7 +169,7 @@
             this.Task2_panel.Controls.Add(this.label9);
             this.Task2_panel.Controls.Add(this.label10);
             this.Task2_panel.Controls.Add(this.label11);
-            this.Task2_panel.Location = new System.Drawing.Point(432, 27);
+            this.Task2_panel.Location = new System.Drawing.Point(9, 24);
             this.Task2_panel.Name = "Task2_panel";
             this.Task2_panel.Size = new System.Drawing.Size(426, 422);
             this.Task2_panel.TabIndex = 16;
