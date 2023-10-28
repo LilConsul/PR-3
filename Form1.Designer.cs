@@ -95,6 +95,7 @@
             this.calc1.TabIndex = 13;
             this.calc1.Text = "Розрахувати";
             this.calc1.UseVisualStyleBackColor = true;
+            this.calc1.Click += new System.EventHandler(this.calc1_Click);
             // 
             // c_box1
             // 
@@ -200,6 +201,7 @@
             this.calc2.TabIndex = 13;
             this.calc2.Text = "Розрахувати";
             this.calc2.UseVisualStyleBackColor = true;
+            this.calc2.Click += new System.EventHandler(this.calc2_Click);
             // 
             // b_box2
             // 
@@ -208,7 +210,7 @@
             this.b_box2.Name = "b_box2";
             this.b_box2.Size = new System.Drawing.Size(98, 31);
             this.b_box2.TabIndex = 11;
-            this.b_box2.Text = "3";
+            this.b_box2.Text = "40";
             // 
             // a_box2
             // 
@@ -281,6 +283,7 @@
             this.Location = new System.Drawing.Point(15, 15);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
+            this.Text = "Практичная робота 3";
             this.Task1_panel.ResumeLayout(false);
             this.Task1_panel.PerformLayout();
             this.Task2_panel.ResumeLayout(false);
